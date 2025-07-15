@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+  /*font-family: sans-serif; 
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1em/*é o tamanho padrão e é melhor usar o em*/
+    /*font: style,weight,size,family*/
+
+    font: italic bold 1em sans-serif
+    /*Nem todo dispositivo tem a fonte Arial,Helvetica ou Sans-Serif*/
+    /*Caso não rode Arial, ela irá p/ Helvetica, caso não rode vai para Sans-Serif*/
+
+    /*
+    Medidas Absolutas:
+    cm,mm,in(polegada),px(pixel(mais usal)),pt(ponto)
+
+    Medidas Relativas:
+    em(tamnho atual),ex,rem,vw(view width(largura))
+    1em=16px
+    */
+
+    
+}
+
+p{
+    text-align: justify;
+}

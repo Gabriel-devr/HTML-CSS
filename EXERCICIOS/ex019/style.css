@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(187, 230, 181);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*
+    Em HTML é id - em CSS é #, OBS: Só é correto associas um id
+    OBS: O id sobrepoe o elemento class
+    Em HTML é class - em CSS é . OBS: é correto associar mais de um class
+*/
+h1 {
+    color: rgb(13, 133, 0);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(5, 49, 0);
+    color: rgb(230, 229, 229);
+}
+
+h2 {
+    color: rgb(23, 56, 20);
+}
+
+.basico {
+    color: rgb(128, 0, 0);
+    font-weight: bold;
+}
+
+.intermediario {
+    color: yellow;
+    font-weight: bold;
+}
+
+.avancado {
+    color: blue;
+    font-weight: bold;
+}
+
+.destaque {
+    background-color: rgba(124, 124, 59, 0.623);
+}

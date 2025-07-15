@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body{
+    background-image: linear-gradient(to bottom,#D6B98F,#8F705B);/*Faz um degradê no body*/
+    background-attachment: fixed; /*preenche toda a página com o degradê*/
+}
+main {
+    background-color: white; /*cor do main*/
+    border-radius: 5px; /*Quantos pixels a borda arrendondará */
+    box-shadow: 5px 5px 15px #46362c83; /*Sombra na caixa (tamanho pro lado, tamanho pra baixo, quanto se espalhará, cor/transparência */
+    width: 800px; /*tamanho do main*/
+    padding: 10px; /*melhora a margem do width*/
+    margin: auto; /*centraliza o main no meio da tela*/
+}
+
+h1{
+    color: #9FA092;
+    text-align: center;
+    text-shadow: 1px 1px 3px #242421b0;
+}
+
+h2{
+    color: #9FA092;
+}
+p {
+    text-align: justify; /*deixa o texto alinhado*/
+}

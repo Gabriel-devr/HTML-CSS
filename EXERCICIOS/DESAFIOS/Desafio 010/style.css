@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+header {
+    background-image: linear-gradient(to bottom, rgb(146, 214, 146), rgb(0, 112, 0));
+    width: auto;
+    padding: 5px 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+header>h1 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+header>p {
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: rgb(255, 255, 255);
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+header>nav {
+    text-align: left;
+}
+
+li {
+    list-style-type: circle;
+    font-style: italic;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 10px;
+    width: 800px;
+}
+
+body {
+    background-color: rgb(195, 214, 167);
+    margin: 0px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, rgb(92, 190, 92), rgba(146, 214, 146, 0.178) );
+    padding: 2px 10px;
+    color: rgb(10, 49, 0);
+}
+
+p {
+    padding: 10px;
+    text-indent: 30px;
+}
+
+footer {
+    background-color: rgb(0, 112, 0); 
+    text-align: center;
+    color: white;
+    padding: 3px;
+    margin: 0px;
+}
+
+footer>p {
+    margin: 0px;
+}
+
+.ultimo {
+    padding: 0px;
+    background-color: rgb(195, 214, 167);
+    border-radius: 5px;
+}
+
+.aprender {
+    background-color: rgb(71, 78, 61);
+    margin: 0px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+    
+}
+
+article#video {
+    background-color: rgb(195, 214, 167);
+    margin-bottom: 10px;
+    padding: 0px;
+}
